@@ -1,0 +1,138 @@
+/* start global rules */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+:root {
+  --main: #7d3c49;
+}
+/* end global rules */
+
+/* start landing */
+.landing {
+  height: 70vh;
+  background-image: url(../images/events-heavenly-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.layer {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(149, 1, 1, 0.5);
+  position: relative;
+}
+
+.nav-icon {
+  font-size: 30px;
+  position: absolute;
+  left: 1%;
+  top: 50%;
+  cursor: pointer;
+}
+
+.nav-mine {
+  height: 100%;
+  color: #fff;
+  background-color: #414658;
+  font-size: 30px;
+  position: fixed;
+  left: -60%;
+  top: 0%;
+}
+
+.nav-mine p {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav-mine p:hover {
+  color: var(--main);
+}
+.nav-mine a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-mine a:hover {
+  color: var(--main);
+}
+
+.nav-mine ul {
+  list-style: none;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 50px;
+}
+/* end landing */
+
+/* start details section */
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 70px;
+}
+
+.details h3 {
+  background-color: #e68285;
+  padding: 5px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.details p {
+  display: none;
+  color: #000;
+  background-color: #cccccc;
+  padding: 7px;
+  margin: 0;
+}
+/* end details section */
+
+.countdown {
+  background-image: url(../images/invitation-2508607__340.jpg);
+  background-size: cover;
+  background-color: rgba(151, 1, 1, 0.63);
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+  background-color: rgba(151, 1, 1, 0.63);
+}
+
+.countdown .col {
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 70px 30px 70px;
+  margin: 10px 0 0 0;
+  color: #fff;
+  transition: background-color 0.3s;
+  width: 300px;
+}
+
+.expired {
+  display: none;
+}
+
+.countdown .col:hover {
+  background-color: rgba(151, 1, 1, 0.616);
+}
