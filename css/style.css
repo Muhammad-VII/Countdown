@@ -255,7 +255,7 @@ svg {
 /* Start scroll to top button */
 #btnUp {
   position: fixed;
-  bottom: 30px;
+  bottom: 48px;
   right: 30px;
   z-index: 10;
   background-color: transparent;
@@ -270,3 +270,16 @@ svg {
   color: rgb(218, 95, 95);
 }
 /* End scroll to top button */
+
+.my-profile{
+  transition: color .5s;
+  color: #fff;
+  -webkit-transition: color .5s;
+  -moz-transition: color .5s;
+  -ms-transition: color .5s;
+  -o-transition: color .5s;
+}
+
+.my-profile:hover{
+  color: red;
+}

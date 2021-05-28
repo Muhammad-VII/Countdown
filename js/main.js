@@ -153,7 +153,7 @@ $(document).ready(() => {
 
 $("#userMessage").on(`keyup`,() => {
   messageRestriction()
-  $(`#message`).html($("#userMessage").val()) 
+  $(`#message`).html(`"${$("#userMessage").val()}"`) 
 })
 // End of message area
 
