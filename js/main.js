@@ -41,7 +41,7 @@ $(`#fourthSingerToggle`).on(`click`, function () {
   const mins = document.getElementById(`mins`);
   const sec = document.getElementById(`sec`);
 
-  const countDownDate = new Date("Aug 2, 2021 12:00:00");  //❤️ Birthday
+  const countDownDate = new Date("Dec 29, 2021 12:00:00");  //❤️ Birthday
   const countdown = setInterval(function () {
     const now = new Date().getTime();
     const distance = countDownDate - now;
